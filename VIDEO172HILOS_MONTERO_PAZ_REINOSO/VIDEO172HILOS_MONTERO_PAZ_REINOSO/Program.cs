@@ -15,7 +15,7 @@ namespace VIDEO172HILOS_MONTERO_PAZ_REINOSO
         static void Main()
         {
             Thread hilo1 = new Thread(HilosVarios.run);
-            Thread hilo2 = new Thread(HilosVarios2.run);
+            Thread hilo2 = new Thread(()=>HilosVarios2.run(hilo1));
 
             hilo2.Start(); //imprime Terino tarea hilo1 y hilo2
             hilo1.Start();
@@ -43,8 +43,9 @@ namespace VIDEO172HILOS_MONTERO_PAZ_REINOSO
         [ThreadStatic]
         static int threadSpecific;
         
-        public static void run()
+        public static void run(Thread hilo)
         {
+            hilo.Join();
             threadSpecific = Thread.CurrentThread.ManagedThreadId;
             for (int i = 0; i < 15; i++)
             {
