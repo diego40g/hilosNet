@@ -16,7 +16,6 @@ namespace VIDEO173HILOS_MONTERO_PAZ_REINOSO
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
         }
     }
 }
