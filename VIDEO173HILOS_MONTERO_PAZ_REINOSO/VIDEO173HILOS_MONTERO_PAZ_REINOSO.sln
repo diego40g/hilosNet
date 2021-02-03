@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1321
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VIDEO173HILOS_MONTERO_PAZ_REINOSO", "VIDEO173HILOS_MONTERO_PAZ_REINOSO\VIDEO173HILOS_MONTERO_PAZ_REINOSO.csproj", "{73C9D6AB-9F7C-4197-86F5-318AFA86F8DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73C9D6AB-9F7C-4197-86F5-318AFA86F8DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C9D6AB-9F7C-4197-86F5-318AFA86F8DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C9D6AB-9F7C-4197-86F5-318AFA86F8DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C9D6AB-9F7C-4197-86F5-318AFA86F8DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0C0496E-12D8-4762-9D47-E6B3AF9A15D8}
+	EndGlobalSection
+EndGlobal
